@@ -59,7 +59,6 @@ def lambda_handler(event, context):
     summary = generate_summary(polarity_desc, subjectivity_desc)
 
 
-
     # Create response
     response = {
         'polarity': sentiment.polarity,
