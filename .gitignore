@@ -8,13 +8,12 @@ colorama/
 colorama-0.4.6.dist-info/
 joblib/
 joblib-1.3.2.dist-info/
-# nltk/
+nltk/
 nltk-3.8.1.dist-info/
 regex/
 regex-2023.12.25.dist-info/
 textblob/
 textblob-0.17.1.dist-info/
-# tqdm/
+tqdm/
 tqdm-4.66.1.dist-info/
-secrets.txt
-# sentiment_analysis_comparison.html
+sentiment_analysis_comparison.html
