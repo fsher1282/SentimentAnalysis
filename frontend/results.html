@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis Results</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Sentiment Analysis Results</h1>
+    <div id="graph"></div>
+
+    <script src="js/graph.js"></script>
+
+    <div id="myDiv" class="plotly-graph"></div> <!-- Plotly chart will be drawn inside this DIV -->
+
+    <!-- Explanation Section -->
+    <div class="explanation">
+        <h2>Understanding Polarity and Subjectivity</h2>
+        <p><strong>Polarity</strong> and <strong>subjectivity</strong> are key concepts in sentiment analysis:</p>
+
+        <h3>Polarity</h3>
+        <ul>
+            <li><strong>What It Is</strong>: Measures the positivity or negativity of text.</li>
+            <li><strong>Scale</strong>: Ranges from -1 (extremely negative) to +1 (extremely positive).</li>
+            <li><strong>Interpretation</strong>: High positive scores indicate positive sentiment; high negative scores indicate negative sentiment. Scores near 0 are neutral.</li>
+        </ul>
+
+        <h3>Subjectivity</h3>
+        <ul>
+            <li><strong>What It Is</strong>: Indicates how much personal opinion or emotion is in the text.</li>
+            <li><strong>Scale</strong>: Ranges from 0 (very objective) to 1 (very subjective).</li>
+            <li><strong>Interpretation</strong>: Higher scores mean more personal opinion and emotion; lower scores suggest factual, objective content.</li>
+        </ul>
+
+        <h3>Graph Interpretation</h3>
+        <p>On the graph:</p>
+        <ul>
+            <li><strong>X-axis</strong>: Polarity</li>
+            <li><strong>Y-axis</strong>: Subjectivity</li>
+        </ul>
+        <p>This visualization helps you quickly understand the sentiment and objectivity in text data.</p>
+    </div>
+</body>
+</html>
